@@ -1,9 +1,11 @@
-import Image from 'next/image';
+import './main.css';
 
 export default function Home() {
 	return (
-		<main className="flex items-center justify-center h-[100Vh] w-full">
-			<p>This website is under construction 🚧 </p>
+		<main className="main">
+			<div className="mainDiv">
+				<h1 className="bigTitle">website in development 🚧 . . .</h1>
+			</div>
 		</main>
 	);
 }
